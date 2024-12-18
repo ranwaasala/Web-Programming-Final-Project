@@ -1,0 +1,245 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 a, header .logo, nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+            font-size: 16px;
+        }
+
+        header nav a:hover, header a:hover {
+            color: #f0e6e6;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        ul {
+            margin-left: 40px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        form button {
+            background-color: #333; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 12px;
+            
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        form button:hover {
+            background-color: #218838;
+        }
+
+        .recipe-image-centered {
+            display: block;
+            margin: 20px auto; 
+            width: 300px; 
+            height: 300px;
+            border-radius: 50%;
+            border: 2px solid #ddd;
+        }
+        
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            margin-top: auto;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            h2, h4 {
+                font-size: 18px;
+            }
+
+            .save-button {
+                width: 100%;
+                height: 40px;
+            }
+        }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a, header .logo, nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+header nav a:hover, header a:hover {
+    color: #f0e6e6;
+}
+
+.center-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.circle-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ul, ol {
+    margin-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #333; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; 
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h2, h4 {
+        font-size: 18px;
+    }
+
+    .save-button {
+        width: 100%;
+        height: 40px;
+    }
+}
+
+.recipe-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    border: 2px solid #f4f4f4; 
+}

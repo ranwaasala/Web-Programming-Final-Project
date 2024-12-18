@@ -1,0 +1,177 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    color: #333; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a, header .logo, nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+header nav a:hover, header a:hover {
+    color: #f0e6e6;
+}
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+
+.profile-username {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.saved-recipes, .add-recipe, .edit-profile {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center; 
+}
+
+.saved-recipes h2, .add-recipe h2, .edit-profile h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+form label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Saved Recipes List */
+.saved-recipes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.saved-recipes li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.saved-recipes li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.saved-recipes button.remove-recipe {
+    background-color: #c82333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.saved-recipes button.remove-recipe:hover {
+    background-color: #a71d2a;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
